@@ -1,5 +1,5 @@
 const expect = require("chai").expect;
-var adres = "https://localhost:3000";
+var adres = "https://mekanbul6.kamilgorucu.repl.co";
 const request = require("supertest").agent(adres);
 describe("POST /api/mekanlar", function () {
   it("Yeni mekan ekle:", async function () {
