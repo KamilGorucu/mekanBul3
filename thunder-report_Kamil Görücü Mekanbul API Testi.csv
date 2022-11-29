@@ -1,0 +1,23 @@
+Client, Thunder Client
+CollectionName, Kamil Görücü Mekanbul API Testi
+FolderName, 
+EnvironmentName, mekanbul
+DateExported, 2022-11-29T18:20:05.089Z
+Total Iterations, 1
+Total Passed, 1
+Total Failed, 0
+Failed Iterations Numbers, 
+
+
+
+Iteration, 1
+Method, Name, Url, Status, Time, Passed, Total, Result
+POST, Mekan Ekle, https://mekanbul6.kamilgorucu.repl.co/api/mekanlar, 201, 983 ms, 1, 1, Pass
+GET, Mekan Listele, https://mekanbul6.kamilgorucu.repl.co/api/mekanlar?enlem=37.8&&boylam=30.5, 200, 870 ms, 1, 1, Pass
+GET, Mekan Getir, https://mekanbul6.kamilgorucu.repl.co/api/mekanlar/63864c5a670558cbfd32882e, 200, 1.05 s, 1, 1, Pass
+PUT, Mekan Güncelle, https://mekanbul6.kamilgorucu.repl.co/api/mekanlar/63864c5a670558cbfd32882e, 200, 1.35 s, 1, 1, Pass
+POST, Yorum Ekle, https://mekanbul6.kamilgorucu.repl.co/api/mekanlar/63864c5a670558cbfd32882e/yorumlar/, 201, 1.26 s, 1, 1, Pass
+GET, Yorum Getir, https://mekanbul6.kamilgorucu.repl.co/api/mekanlar/63864c5a670558cbfd32882e/yorumlar/63864c5f670558cbfd32883d, 200, 802 ms, 1, 1, Pass
+PUT, Yorum Güncelle, https://mekanbul6.kamilgorucu.repl.co/api/mekanlar/63864c5a670558cbfd32882e/yorumlar/63864c5f670558cbfd32883d, 200, 1.50 s, 1, 1, Pass
+DELETE, Yorum Sil, https://mekanbul6.kamilgorucu.repl.co/api/mekanlar/63864c5a670558cbfd32882e/yorumlar/63864c5f670558cbfd32883d, 200, 1.23 s, 1, 1, Pass
+DELETE, Mekan Sil, https://mekanbul6.kamilgorucu.repl.co/api/mekanlar/63864c5a670558cbfd32882e, 200, 1.00 s, 1, 1, Pass
